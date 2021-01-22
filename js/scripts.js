@@ -18,16 +18,19 @@ function beepBoop(userNumber) {
   }
   for (const element of numberArray){
     let numberString = element.toString();
+    let varToPush;
     for (let i2 = 0; i2 < numberString.length; i2 +=1){
-      if (numberString.charAt() === "1") {
-        transformedArray.push("Beep!");
+      if (numberString.charAt(i2) === "1") {
+        varToPush = "Beep!"
+        // transformedArray.push("Beep!");
         i2 = numberString.length;
       } else {
-        transformedArray.push(numberString);
-        
+        varToPush = numberString;
       };
-  }};
+    }
+    transformedArray.push(varToPush);
+  };
   return transformedArray;
 };
 
-console.log(beepBoop("25"))
+console.log(beepBoop("50"))
