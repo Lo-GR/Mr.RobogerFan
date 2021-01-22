@@ -46,9 +46,6 @@ Test: "It should return an array of numbers from 0 to the inputted number where 
 Test: "It should return an array of numbers from 0 to the inputted number where every number containing a '1' replaces all digits of that number with 'Beep!' and every number containing '2' replaces all digits of that number with 'Boop!'"
 >Expect(beepBoop(5).toEqual(["Beep!", "Boop!", 3, 4, 5]);
 
-Test: "It should return an array of numbers from 0 to the inputted number where every number containing a '1' replaces all digits of that number with 'Beep!' and every number containing '2' replaces all digits of that number with 'Boop!'"
->Expect(beepBoop(5).toEqual(["Beep!", "Boop!", 3, 4, 5]);
-
 Test: "It should return an array of numbers from 0 to the inputted number where every number containing a '1' replaces all digits of that number with 'Beep!', every number containing '2' replaces all digits of that number with 'Boop!', and every number containing 3 replaces all digits of that number with 'Won't you be my neighbor?'"
 >Expect(beepBoop(5).toEqual(["Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]);
 
