@@ -24,7 +24,7 @@ $(document).ready(function() {
   $(".numberForm").submit(function(event) {
     event.preventDefault();
     const userInput = $("input#numberGenerator").val();
-    $(".showNumbers").text(beepBoop(userInput));
+    $(".showNumbers").text(beepBoop(userInput).join(', '));
   });
 });
 console.log(beepBoop("50"))
