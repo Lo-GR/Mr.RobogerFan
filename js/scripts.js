@@ -59,7 +59,9 @@ function beepBoop(userNumber) {
   for (const element of numberArray){
     let numberString = element.toString();
     let varToPush = numberString;
-    if (numberString.includes("2")) {
+    if (numberString.includes("3")) {
+      varToPush = "Won't you be my neighbor?"
+    } else if (numberString.includes("2")) {
       varToPush = "Boop!"
     } else if (numberString.includes("1")){
       varToPush = "Beep!"
