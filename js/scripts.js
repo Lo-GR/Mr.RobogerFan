@@ -19,13 +19,15 @@ function beepBoop(userNumber) {
   for (const element of numberArray){
     let numberString = element.toString();
     for (let i2 = 0; i2 < numberString.length; i2 +=1){
-      if (numberString.charAt(i2) === "1") {
-        transformedArray.push("test");
+      if (numberString.charAt() === "1") {
+        transformedArray.push("Beep!");
+        i2 = numberString.length;
       } else {
-        transformedArray.push(element);
+        transformedArray.push(numberString);
+        
       };
   }};
   return transformedArray;
 };
 
-console.log(beepBoop("5"))
+console.log(beepBoop("25"))
