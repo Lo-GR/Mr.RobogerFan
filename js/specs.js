@@ -24,5 +24,14 @@ function beepBoop(userNumber) {
   for (let index = 0; index < numberChosen; index ++){
     numberArray.unshift(numberArray[0]-1);
   }
-  return numberArray;
+  let transformedArray = numberArray.map(function(element){
+    let numberString = element.toString();
+    for (let index = 0; index < numberString.length; index +=1){
+    if (numberString.charAt(index) = "1") {
+      return "Beep!";
+    } else {
+      return element;
+    }
+  }});
+  return transformedArray;
 };
