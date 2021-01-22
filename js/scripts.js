@@ -20,5 +20,11 @@ function beepBoop(userNumber) {
   return transformedArray;
 };
 
-
+$(document).ready(function() {
+  $(".numberForm").submit(function(event) {
+    event.preventDefault();
+    const userInput = $("input#numberGenerator").val();
+    $(".showNumbers").text(beepBoop(userInput));
+  });
+});
 console.log(beepBoop("50"))
