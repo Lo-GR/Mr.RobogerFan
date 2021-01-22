@@ -1,3 +1,17 @@
 body {
-  background-color:antiquewhite;
+  background-color:#F2E5E2;
+}
+img {
+  width: 150px;
+  height: auto:
+}
+p{
+  font-family: monospace;
+  font-weight: bold;
+}
+.col-4 {
+  padding: 20px;
+  border-color: #6D545D;
+  border-width: 2px;
+  border-style: groove;
 }
