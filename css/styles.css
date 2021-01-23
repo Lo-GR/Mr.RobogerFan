@@ -3,15 +3,23 @@ body {
 }
 img {
   width: 150px;
-  height: auto:
+  height: auto;
 }
 p{
+  padding: 10px;
   font-family: monospace;
   font-weight: bold;
+  background-color: #C5FBDC;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: black;
 }
 .col-4 {
-  padding: 20px;
+  padding: 10px;
   border-color: #6D545D;
   border-width: 2px;
   border-style: groove;
+}
+#submitButton {
+  background-color: #72A1E5;
 }
