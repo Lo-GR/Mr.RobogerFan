@@ -24,6 +24,10 @@ $(document).ready(function() {
   $(".numberForm").submit(function(event) {
     event.preventDefault();
     const userInput = $("input#numberGenerator").val();
-    $("#showNumbers").text(beepBoop(userInput).join(', '));
+    if (userInput === "0"){
+      $("#showNumbers").text("Hey pal! That's a zero!");
+    }else{
+      $("#showNumbers").text(beepBoop(userInput).join(', '));
+    }
   });
 });

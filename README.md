@@ -21,8 +21,8 @@ This is a practice project for Looping and Array manipulation for a class at Epi
 
 ## _Setup/Installation_
 
-> Repository: https://github.com/Lo-GR/language-suggester.git
-1. Clone this repository from Github
+> Repository: https://github.com/Lo-GR/Mr.RobogerFan.git
+1. Clone the above repository from Github
 2. Navigate to the root directory of the project in your terminal and type "open index.html" to view the project in your default browser.
 3. Open the project in your text editor to view the code.
 
@@ -30,7 +30,9 @@ This is a practice project for Looping and Array manipulation for a class at Epi
 * No known bugs at this time. Please contact a contributor to report any bugs found during use.
 
 ## _Future Updates_
-* Future updates here
+* Add different interactions when entering non-numbers or negative numbers into field
+* Add more animations to text entering page
+* Add a reverse order option
 
 ## _Specs/Tests_
 
