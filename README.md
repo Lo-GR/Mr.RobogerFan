@@ -1,5 +1,5 @@
-# **Mr.Roboger's Neighborhood**
-### This is a web application to..
+# **Mr.Roboger's Neighborhood Fanboy**
+### This is a web application that will count a every number from 0 to an inputted number
 
  ### _Contributor(s) and Contact Info_
 > Logan Roth diamondintheroth@gmail.com - [Github(Lo-GR)](https://github.com/Lo-GR)
@@ -15,7 +15,7 @@
 * **JavaScript**
 
 ## _Description_
-This web application will...
+This web application will take a number provided and show every number from 0 to the given number. In addition, the application will 
 
 ## _Setup/Installation_
 

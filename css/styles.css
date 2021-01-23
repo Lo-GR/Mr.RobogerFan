@@ -1,5 +1,5 @@
 body {
-  background-color:#F2E5E2;
+  background-color:#8CD790;
 }
 img {
   width: 150px;
@@ -19,7 +19,13 @@ p{
   border-color: #6D545D;
   border-width: 2px;
   border-style: groove;
+  background-color:#F2E5E2;
 }
 #submitButton {
   background-color: #72A1E5;
+}
+#showNumbers{
+  background-color: #D9FED7;
+  font-family: monospace;
+  font-weight: bold;
 }
