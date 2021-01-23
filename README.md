@@ -30,7 +30,7 @@ This is a practice project for Looping and Array manipulation for a class at Epi
 * No known bugs at this time. Please contact a contributor to report any bugs found during use.
 
 ## _Future Updates_
-* Add different interactions when entering non-numbers
+* Add different interactions when entering non-numbers (as opposed to preventing input through CSS)
 * Add more animations to text entering page
 * Add a reverse order option
 * Add an option to do negative numbers
