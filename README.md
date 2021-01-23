@@ -1,5 +1,5 @@
 # **Mr.Roboger's Neighborhood Fanboy**
-### This is a web application that will count a every number from 0 to an inputted number
+### This is a web application that will count a every number from 0 to an inputted number.
 
  ### _Contributor(s) and Contact Info_
 > Logan Roth diamondintheroth@gmail.com - [Github(Lo-GR)](https://github.com/Lo-GR)
@@ -15,7 +15,9 @@
 * **JavaScript**
 
 ## _Description_
-This web application will take a number provided and show every number from 0 to the given number. In addition, the application will 
+This web application will take a number provided and show every number from 0 to the given number. In addition, the application will replace any numbers that include a 1, 2, or 3 with Beep, Boop, or "Won't you be my neighbor" respectively. It includes a very friendly dancing robot friend. 
+
+This is a practice project for Looping and Array manipulation for a class at Epicodus.
 
 ## _Setup/Installation_
 
