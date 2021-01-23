@@ -25,8 +25,10 @@ $(document).ready(function() {
     event.preventDefault();
     const userInput = $("input#numberGenerator").val();
     if (userInput === "0"){
-      $("#showNumbers").text("Hey pal! That's a zero!");
-    }else{
+      $("#showNumbers").text("Hey, pal! That's a zero!");
+    } else if (userInput.includes("-")) {
+      $("#showNumbers").text("Sorry, buddy! I can't do negatives yet!");
+    } else {
       $("#showNumbers").text(beepBoop(userInput).join(', '));
     }
   });
